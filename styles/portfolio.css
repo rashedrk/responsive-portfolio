@@ -217,19 +217,33 @@ section{
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
-    .about-info-container, .skill-container, .resume-items-container , .contact{
+    .banner, .about-info-container, .skill-container, .resume-items-container , .contact{
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
     }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        margin: 0 5px;
+    }
+    .btn-secondary{
+        margin-top: 10px;
+    }
+    nav{
+        margin: 10px;
+        flex-direction: column;
+    }
+    nav ul{
+        padding: 10px;
+        text-align: left;
+    }
+   
     .contact input[type=text], input[type=email], textarea{
         padding: 20px 5px;
     }
     .about-me{
         padding: 10px;
     }
-}
-
-.hide{
-    display: none;
 }

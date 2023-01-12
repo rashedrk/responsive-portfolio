@@ -217,7 +217,7 @@ section{
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
-    .banner, .about-info-container, .skill-container, .resume-items-container , .contact{
+    .banner, nav, nav ul, .about-info-container, .skill-container, .resume-items-container , .contact{
         flex-direction: column;
         gap: 20px;
         padding: 10px 20px;
@@ -232,12 +232,13 @@ section{
         margin-top: 10px;
     }
     nav{
-        margin: 10px;
-        flex-direction: column;
+        margin: 0;
     }
     nav ul{
-        padding: 10px;
-        text-align: left;
+        align-items: flex-start;
+    }
+    nav li {
+        margin: 0;
     }
    
     .contact input[type=text], input[type=email], textarea{

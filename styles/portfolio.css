@@ -240,7 +240,9 @@ section{
     nav li {
         margin: 0;
     }
-   
+    .banner img{
+        width: 100%;
+    }
     .contact input[type=text], input[type=email], textarea{
         padding: 20px 5px;
     }
